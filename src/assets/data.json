@@ -1,0 +1,1364 @@
+{
+  "location": {
+    "name": "Ahmedabad",
+    "region": "Gujarat",
+    "country": "India",
+    "lat": 23.03,
+    "lon": 72.62,
+    "tz_id": "Asia/Kolkata",
+    "localtime_epoch": 1718701641,
+    "localtime": "2024-06-18 14:37"
+  },
+  "current": {
+    "last_updated_epoch": 1718701200,
+    "last_updated": "2024-06-18 14:30",
+    "temp_c": 39.2,
+    "temp_f": 102.6,
+    "is_day": 1,
+    "condition": {
+      "text": "Sunny",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 12.1,
+    "wind_kph": 19.4,
+    "wind_degree": 231,
+    "wind_dir": "SW",
+    "pressure_mb": 1001,
+    "pressure_in": 29.55,
+    "humidity": 32,
+    "cloud": 21,
+    "feelslike_c": 43.3,
+    "feelslike_f": 110,
+    "vis_km": 10,
+    "uv": 9,
+    "air_quality": {
+      "co": 253.7,
+      "no2": 3.7,
+      "o3": 98.7,
+      "so2": 10.4,
+      "pm2_5": 11,
+      "pm10": 28.5,
+      "us-epa-index": 1,
+      "gb-defra-index": 1
+    }
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2024-06-18",
+        "date_epoch": 1718668800,
+        "day": {
+          "maxtemp_c": 39.6,
+          "maxtemp_f": 103.3,
+          "mintemp_c": 31.7,
+          "mintemp_f": 89.1,
+          "avgtemp_c": 35,
+          "avgtemp_f": 95,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 1,
+          "condition": {
+            "text": "Patchy rain nearby",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 11
+        },
+        "astro": {
+          "sunrise": "05:54 AM",
+          "sunset": "07:28 PM",
+          "moonrise": "04:08 PM",
+          "moonset": "02:42 AM",
+          "moon_phase": "Waxing Gibbous",
+          "moon_illumination": 83
+        },
+        "hour": [
+          {
+            "time": "2024-06-18 00:00",
+            "temp_c": 33.2,
+            "temp_f": 91.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_mph": 11.9,
+            "snow_cm": 0,
+            "cloud": 86,
+            "feelslike_c": 39,
+            "feelslike_f": 102.2,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 01:00",
+            "temp_c": 33,
+            "temp_f": 91.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 9.2,
+            "snow_cm": 0,
+            "cloud": 17,
+            "feelslike_c": 38.7,
+            "feelslike_f": 101.7,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 02:00",
+            "temp_c": 32.6,
+            "temp_f": 90.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_mph": 8.5,
+            "snow_cm": 0,
+            "cloud": 74,
+            "feelslike_c": 38.4,
+            "feelslike_f": 101,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 03:00",
+            "temp_c": 32.3,
+            "temp_f": 90.2,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 9.6,
+            "snow_cm": 0,
+            "cloud": 13,
+            "feelslike_c": 38,
+            "feelslike_f": 100.3,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 04:00",
+            "temp_c": 32,
+            "temp_f": 89.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_mph": 9.8,
+            "snow_cm": 0,
+            "cloud": 78,
+            "feelslike_c": 37.5,
+            "feelslike_f": 99.6,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 05:00",
+            "temp_c": 31.7,
+            "temp_f": 89.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 8.5,
+            "snow_cm": 0,
+            "cloud": 31,
+            "feelslike_c": 37.1,
+            "feelslike_f": 98.8,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 06:00",
+            "temp_c": 31.9,
+            "temp_f": 89.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_mph": 9.2,
+            "snow_cm": 0,
+            "cloud": 88,
+            "feelslike_c": 37.1,
+            "feelslike_f": 98.7,
+            "uv": 7
+          },
+          {
+            "time": "2024-06-18 07:00",
+            "temp_c": 32.4,
+            "temp_f": 90.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 10.1,
+            "snow_cm": 0,
+            "cloud": 55,
+            "feelslike_c": 37.5,
+            "feelslike_f": 99.4,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-18 08:00",
+            "temp_c": 33.3,
+            "temp_f": 91.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
+              "code": 1006
+            },
+            "wind_mph": 10.3,
+            "snow_cm": 0,
+            "cloud": 74,
+            "feelslike_c": 38.5,
+            "feelslike_f": 101.2,
+            "uv": 7
+          },
+          {
+            "time": "2024-06-18 09:00",
+            "temp_c": 34.4,
+            "temp_f": 93.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Overcast ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/122.png",
+              "code": 1009
+            },
+            "wind_mph": 11,
+            "snow_cm": 0,
+            "cloud": 91,
+            "feelslike_c": 39.6,
+            "feelslike_f": 103.3,
+            "uv": 7
+          },
+          {
+            "time": "2024-06-18 10:00",
+            "temp_c": 35.8,
+            "temp_f": 96.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 11.2,
+            "snow_cm": 0,
+            "cloud": 44,
+            "feelslike_c": 41.2,
+            "feelslike_f": 106.1,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 11:00",
+            "temp_c": 37.2,
+            "temp_f": 98.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
+              "code": 1006
+            },
+            "wind_mph": 11.2,
+            "snow_cm": 0,
+            "cloud": 71,
+            "feelslike_c": 42.5,
+            "feelslike_f": 108.4,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-18 12:00",
+            "temp_c": 38.4,
+            "temp_f": 101,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 11.9,
+            "snow_cm": 0,
+            "cloud": 44,
+            "feelslike_c": 43.4,
+            "feelslike_f": 110.2,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 13:00",
+            "temp_c": 39.1,
+            "temp_f": 102.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 12.5,
+            "snow_cm": 0,
+            "cloud": 29,
+            "feelslike_c": 43.7,
+            "feelslike_f": 110.7,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 14:00",
+            "temp_c": 39.2,
+            "temp_f": 102.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 12.1,
+            "snow_cm": 0,
+            "cloud": 21,
+            "feelslike_c": 43.3,
+            "feelslike_f": 110,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 15:00",
+            "temp_c": 39,
+            "temp_f": 102.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 10.7,
+            "snow_cm": 0,
+            "cloud": 24,
+            "feelslike_c": 42.8,
+            "feelslike_f": 109,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 16:00",
+            "temp_c": 39.6,
+            "temp_f": 103.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 11.9,
+            "snow_cm": 0,
+            "cloud": 51,
+            "feelslike_c": 43.6,
+            "feelslike_f": 110.5,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 17:00",
+            "temp_c": 38.8,
+            "temp_f": 101.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 15.9,
+            "snow_cm": 0,
+            "cloud": 43,
+            "feelslike_c": 43.2,
+            "feelslike_f": 109.8,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 18:00",
+            "temp_c": 36.5,
+            "temp_f": 97.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 20.4,
+            "snow_cm": 0,
+            "cloud": 21,
+            "feelslike_c": 41.8,
+            "feelslike_f": 107.2,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-18 19:00",
+            "temp_c": 34.4,
+            "temp_f": 93.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 17.9,
+            "snow_cm": 0,
+            "cloud": 44,
+            "feelslike_c": 40,
+            "feelslike_f": 103.9,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 20:00",
+            "temp_c": 33.6,
+            "temp_f": 92.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 15.4,
+            "snow_cm": 0,
+            "cloud": 44,
+            "feelslike_c": 39.4,
+            "feelslike_f": 103,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 21:00",
+            "temp_c": 34.2,
+            "temp_f": 93.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 11.2,
+            "snow_cm": 0,
+            "cloud": 25,
+            "feelslike_c": 39.6,
+            "feelslike_f": 103.3,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 22:00",
+            "temp_c": 34.4,
+            "temp_f": 94,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 12.3,
+            "snow_cm": 0,
+            "cloud": 43,
+            "feelslike_c": 39,
+            "feelslike_f": 102.1,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-18 23:00",
+            "temp_c": 33.5,
+            "temp_f": 92.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 15,
+            "snow_cm": 0,
+            "cloud": 43,
+            "feelslike_c": 37.4,
+            "feelslike_f": 99.4,
+            "uv": 1
+          }
+        ]
+      },
+      {
+        "date": "2024-06-19",
+        "date_epoch": 1718755200,
+        "day": {
+          "maxtemp_c": 40.5,
+          "maxtemp_f": 104.9,
+          "mintemp_c": 30.3,
+          "mintemp_f": 86.5,
+          "avgtemp_c": 34.8,
+          "avgtemp_f": 94.6,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 0,
+          "condition": {
+            "text": "Sunny",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+            "code": 1000
+          },
+          "uv": 11
+        },
+        "astro": {
+          "sunrise": "05:55 AM",
+          "sunset": "07:28 PM",
+          "moonrise": "05:06 PM",
+          "moonset": "03:19 AM",
+          "moon_phase": "Waxing Gibbous",
+          "moon_illumination": 90
+        },
+        "hour": [
+          {
+            "time": "2024-06-19 00:00",
+            "temp_c": 32.9,
+            "temp_f": 91.2,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 13.2,
+            "snow_cm": 0,
+            "cloud": 24,
+            "feelslike_c": 36.7,
+            "feelslike_f": 98.1,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 01:00",
+            "temp_c": 32.7,
+            "temp_f": 90.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.1,
+            "snow_cm": 0,
+            "cloud": 16,
+            "feelslike_c": 36.2,
+            "feelslike_f": 97.2,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 02:00",
+            "temp_c": 31.8,
+            "temp_f": 89.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 13.6,
+            "snow_cm": 0,
+            "cloud": 25,
+            "feelslike_c": 35.1,
+            "feelslike_f": 95.1,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 03:00",
+            "temp_c": 31.3,
+            "temp_f": 88.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 13,
+            "snow_cm": 0,
+            "cloud": 23,
+            "feelslike_c": 34.8,
+            "feelslike_f": 94.7,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 04:00",
+            "temp_c": 30.7,
+            "temp_f": 87.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 13.6,
+            "snow_cm": 0,
+            "cloud": 12,
+            "feelslike_c": 34.4,
+            "feelslike_f": 93.9,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 05:00",
+            "temp_c": 30.3,
+            "temp_f": 86.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 13,
+            "snow_cm": 0,
+            "cloud": 16,
+            "feelslike_c": 34,
+            "feelslike_f": 93.3,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 06:00",
+            "temp_c": 30.3,
+            "temp_f": 86.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 12.5,
+            "snow_cm": 0,
+            "cloud": 17,
+            "feelslike_c": 34.1,
+            "feelslike_f": 93.3,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-19 07:00",
+            "temp_c": 31,
+            "temp_f": 87.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.1,
+            "snow_cm": 0,
+            "cloud": 22,
+            "feelslike_c": 34.8,
+            "feelslike_f": 94.6,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-19 08:00",
+            "temp_c": 32.1,
+            "temp_f": 89.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 14.8,
+            "snow_cm": 0,
+            "cloud": 55,
+            "feelslike_c": 36,
+            "feelslike_f": 96.8,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-19 09:00",
+            "temp_c": 33.6,
+            "temp_f": 92.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 15.2,
+            "snow_cm": 0,
+            "cloud": 58,
+            "feelslike_c": 37.7,
+            "feelslike_f": 99.8,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-19 10:00",
+            "temp_c": 35.2,
+            "temp_f": 95.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/119.png",
+              "code": 1006
+            },
+            "wind_mph": 15.2,
+            "snow_cm": 0,
+            "cloud": 66,
+            "feelslike_c": 39.3,
+            "feelslike_f": 102.7,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-19 11:00",
+            "temp_c": 36.8,
+            "temp_f": 98.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 15.7,
+            "snow_cm": 0,
+            "cloud": 46,
+            "feelslike_c": 40.7,
+            "feelslike_f": 105.2,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-19 12:00",
+            "temp_c": 38.1,
+            "temp_f": 100.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 16.1,
+            "snow_cm": 0,
+            "cloud": 24,
+            "feelslike_c": 41.5,
+            "feelslike_f": 106.7,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-19 13:00",
+            "temp_c": 39.2,
+            "temp_f": 102.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 16.3,
+            "snow_cm": 0,
+            "cloud": 16,
+            "feelslike_c": 42.2,
+            "feelslike_f": 108,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-19 14:00",
+            "temp_c": 40.1,
+            "temp_f": 104.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 16.1,
+            "snow_cm": 0,
+            "cloud": 11,
+            "feelslike_c": 43,
+            "feelslike_f": 109.4,
+            "uv": 10
+          },
+          {
+            "time": "2024-06-19 15:00",
+            "temp_c": 40.5,
+            "temp_f": 104.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 17.4,
+            "snow_cm": 0,
+            "cloud": 22,
+            "feelslike_c": 43.8,
+            "feelslike_f": 110.8,
+            "uv": 10
+          },
+          {
+            "time": "2024-06-19 16:00",
+            "temp_c": 39.6,
+            "temp_f": 103.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 19,
+            "snow_cm": 0,
+            "cloud": 20,
+            "feelslike_c": 43.5,
+            "feelslike_f": 110.4,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-19 17:00",
+            "temp_c": 38.1,
+            "temp_f": 100.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 20.4,
+            "snow_cm": 0,
+            "cloud": 24,
+            "feelslike_c": 42.3,
+            "feelslike_f": 108.1,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-19 18:00",
+            "temp_c": 36.3,
+            "temp_f": 97.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 20.8,
+            "snow_cm": 0,
+            "cloud": 27,
+            "feelslike_c": 40.8,
+            "feelslike_f": 105.5,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-19 19:00",
+            "temp_c": 36.3,
+            "temp_f": 97.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 18.1,
+            "snow_cm": 0,
+            "cloud": 29,
+            "feelslike_c": 40.7,
+            "feelslike_f": 105.3,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 20:00",
+            "temp_c": 35.8,
+            "temp_f": 96.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 17.9,
+            "snow_cm": 0,
+            "cloud": 32,
+            "feelslike_c": 39.9,
+            "feelslike_f": 103.8,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 21:00",
+            "temp_c": 34.8,
+            "temp_f": 94.7,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 17.7,
+            "snow_cm": 0,
+            "cloud": 44,
+            "feelslike_c": 39.3,
+            "feelslike_f": 102.7,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 22:00",
+            "temp_c": 34,
+            "temp_f": 93.2,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 16.6,
+            "snow_cm": 0,
+            "cloud": 29,
+            "feelslike_c": 38.5,
+            "feelslike_f": 101.3,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-19 23:00",
+            "temp_c": 33,
+            "temp_f": 91.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 16.1,
+            "snow_cm": 0,
+            "cloud": 50,
+            "feelslike_c": 37.7,
+            "feelslike_f": 99.8,
+            "uv": 1
+          }
+        ]
+      },
+      {
+        "date": "2024-06-20",
+        "date_epoch": 1718841600,
+        "day": {
+          "maxtemp_c": 40.7,
+          "maxtemp_f": 105.2,
+          "mintemp_c": 30,
+          "mintemp_f": 86,
+          "avgtemp_c": 34.5,
+          "avgtemp_f": 94.1,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 0,
+          "condition": {
+            "text": "Partly Cloudy ",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+            "code": 1003
+          },
+          "uv": 11
+        },
+        "astro": {
+          "sunrise": "05:55 AM",
+          "sunset": "07:28 PM",
+          "moonrise": "06:06 PM",
+          "moonset": "04:01 AM",
+          "moon_phase": "Waxing Gibbous",
+          "moon_illumination": 95
+        },
+        "hour": [
+          {
+            "time": "2024-06-20 00:00",
+            "temp_c": 32.1,
+            "temp_f": 89.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.5,
+            "snow_cm": 0,
+            "cloud": 21,
+            "feelslike_c": 36.6,
+            "feelslike_f": 97.9,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 01:00",
+            "temp_c": 31.6,
+            "temp_f": 88.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 13.9,
+            "snow_cm": 0,
+            "cloud": 19,
+            "feelslike_c": 35.9,
+            "feelslike_f": 96.7,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 02:00",
+            "temp_c": 31.1,
+            "temp_f": 88,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 13.6,
+            "snow_cm": 0,
+            "cloud": 33,
+            "feelslike_c": 35.3,
+            "feelslike_f": 95.6,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 03:00",
+            "temp_c": 30.7,
+            "temp_f": 87.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 13.2,
+            "snow_cm": 0,
+            "cloud": 49,
+            "feelslike_c": 34.9,
+            "feelslike_f": 94.8,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 04:00",
+            "temp_c": 30.3,
+            "temp_f": 86.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 12.3,
+            "snow_cm": 0,
+            "cloud": 57,
+            "feelslike_c": 34.4,
+            "feelslike_f": 94,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 05:00",
+            "temp_c": 30,
+            "temp_f": 86.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 11.6,
+            "snow_cm": 0,
+            "cloud": 62,
+            "feelslike_c": 34.1,
+            "feelslike_f": 93.4,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 06:00",
+            "temp_c": 30,
+            "temp_f": 86,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_mph": 11.4,
+            "snow_cm": 0,
+            "cloud": 57,
+            "feelslike_c": 34.2,
+            "feelslike_f": 93.5,
+            "uv": 7
+          },
+          {
+            "time": "2024-06-20 07:00",
+            "temp_c": 30.6,
+            "temp_f": 87,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 12.5,
+            "snow_cm": 0,
+            "cloud": 62,
+            "feelslike_c": 34.8,
+            "feelslike_f": 94.6,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-20 08:00",
+            "temp_c": 31.8,
+            "temp_f": 89.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Patchy rain nearby",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_mph": 13,
+            "snow_cm": 0,
+            "cloud": 73,
+            "feelslike_c": 36.3,
+            "feelslike_f": 97.3,
+            "uv": 7
+          },
+          {
+            "time": "2024-06-20 09:00",
+            "temp_c": 33.3,
+            "temp_f": 91.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_mph": 13.9,
+            "snow_cm": 0,
+            "cloud": 60,
+            "feelslike_c": 37.9,
+            "feelslike_f": 100.3,
+            "uv": 8
+          },
+          {
+            "time": "2024-06-20 10:00",
+            "temp_c": 35.1,
+            "temp_f": 95.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.3,
+            "snow_cm": 0,
+            "cloud": 19,
+            "feelslike_c": 39.6,
+            "feelslike_f": 103.3,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-20 11:00",
+            "temp_c": 36.7,
+            "temp_f": 98.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.3,
+            "snow_cm": 0,
+            "cloud": 12,
+            "feelslike_c": 40.8,
+            "feelslike_f": 105.5,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-20 12:00",
+            "temp_c": 38.2,
+            "temp_f": 100.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.3,
+            "snow_cm": 0,
+            "cloud": 19,
+            "feelslike_c": 42,
+            "feelslike_f": 107.5,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-20 13:00",
+            "temp_c": 39.3,
+            "temp_f": 102.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.3,
+            "snow_cm": 0,
+            "cloud": 13,
+            "feelslike_c": 42.6,
+            "feelslike_f": 108.7,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-20 14:00",
+            "temp_c": 40.2,
+            "temp_f": 104.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 13.9,
+            "snow_cm": 0,
+            "cloud": 9,
+            "feelslike_c": 43.2,
+            "feelslike_f": 109.7,
+            "uv": 10
+          },
+          {
+            "time": "2024-06-20 15:00",
+            "temp_c": 40.7,
+            "temp_f": 105.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 14.8,
+            "snow_cm": 0,
+            "cloud": 7,
+            "feelslike_c": 43.5,
+            "feelslike_f": 110.4,
+            "uv": 10
+          },
+          {
+            "time": "2024-06-20 16:00",
+            "temp_c": 39.5,
+            "temp_f": 103.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 18.1,
+            "snow_cm": 0,
+            "cloud": 9,
+            "feelslike_c": 43.3,
+            "feelslike_f": 110,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-20 17:00",
+            "temp_c": 38.5,
+            "temp_f": 101.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 17.7,
+            "snow_cm": 0,
+            "cloud": 10,
+            "feelslike_c": 42.7,
+            "feelslike_f": 108.9,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-20 18:00",
+            "temp_c": 36.6,
+            "temp_f": 97.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Sunny",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_mph": 19.5,
+            "snow_cm": 0,
+            "cloud": 8,
+            "feelslike_c": 41.5,
+            "feelslike_f": 106.6,
+            "uv": 9
+          },
+          {
+            "time": "2024-06-20 19:00",
+            "temp_c": 34.7,
+            "temp_f": 94.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 18.6,
+            "snow_cm": 0,
+            "cloud": 8,
+            "feelslike_c": 39.8,
+            "feelslike_f": 103.6,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 20:00",
+            "temp_c": 33.5,
+            "temp_f": 92.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 19.5,
+            "snow_cm": 0,
+            "cloud": 11,
+            "feelslike_c": 38.6,
+            "feelslike_f": 101.6,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 21:00",
+            "temp_c": 34.6,
+            "temp_f": 94.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Clear ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_mph": 16.1,
+            "snow_cm": 0,
+            "cloud": 18,
+            "feelslike_c": 39.7,
+            "feelslike_f": 103.4,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 22:00",
+            "temp_c": 34.9,
+            "temp_f": 94.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Partly Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_mph": 16.6,
+            "snow_cm": 0,
+            "cloud": 51,
+            "feelslike_c": 39.5,
+            "feelslike_f": 103.1,
+            "uv": 1
+          },
+          {
+            "time": "2024-06-20 23:00",
+            "temp_c": 33.6,
+            "temp_f": 92.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Cloudy ",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/119.png",
+              "code": 1006
+            },
+            "wind_mph": 16.3,
+            "snow_cm": 0,
+            "cloud": 68,
+            "feelslike_c": 38.4,
+            "feelslike_f": 101,
+            "uv": 1
+          }
+        ]
+      }
+    ]
+  }
+}
