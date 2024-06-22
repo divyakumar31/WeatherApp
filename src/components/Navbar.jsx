@@ -1,38 +1,12 @@
-import React, { useEffect, useState } from "react";
+import { Clock } from "./components";
 
 const Navbar = ({ data }) => {
-  const [currentTime, setCurrentTime] = useState("");
-  const [currentDate, setCurrentDate] = useState("");
-  const options = {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    weekday: "long",
-  };
-  const dateFormatter = new Intl.DateTimeFormat("en-IN", options);
-
-  setInterval(() => {
-    setDateTime();
-  }, 1000);
-
-  const setDateTime = () => {
-    const date = new Date();
-    const dateString = dateFormatter.format(date);
-    setCurrentTime(date.toLocaleTimeString());
-    setCurrentDate(dateString);
-  };
-
-  useEffect(() => {
-    setDateTime();
-  }, []);
-
   const items = [1, 2, 3];
 
   return (
     <div className="bg-[#f3f7f7] h-screen p-5">
       <div className="pb-4">
-        <h1 className="font-semibold text-3xl">{currentTime}</h1>
-        <p className="text-lg">{currentDate}</p>
+        <Clock />
       </div>
       <div className="bg-[url(women_with_dog.jpg)] relative aspect-square bg-center backdrop-blur-sm my-4 p-4 rounded-lg w-full bg-cover">
         <h3 className="font-semibold text-2xl my-2">Air Quality</h3>
