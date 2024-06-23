@@ -18,7 +18,14 @@ const Clock = () => {
   const setDateTime = () => {
     const date = new Date();
     const dateString = dateFormatter.format(date);
-    setCurrentTime(date.toLocaleTimeString());
+    setCurrentTime(
+      date.toLocaleString("en-US", {
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric",
+        hour12: true,
+      })
+    );
     setCurrentDate(dateString);
   };
 

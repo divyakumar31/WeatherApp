@@ -10,7 +10,10 @@ const Navbar = () => {
       <div className="pb-4">
         <Clock />
       </div>
-      <div className="bg-[url(women_with_dog.jpg)] relative aspect-square bg-center backdrop-blur-sm my-4 p-4 rounded-lg w-full bg-cover">
+      <div
+        className="relative aspect-square bg-center backdrop-blur-sm my-4 p-4 rounded-lg w-full bg-cover"
+        style={{ backgroundImage: "url(women_with_dog.jpg)" }}
+      >
         <h3 className="font-semibold text-2xl my-2">Air Quality</h3>
         <p className="my-2">Main Pollutant: PM2.5</p>
         <div className="w-8/12 font-medium my-2 absolute bottom-4 left-4">
