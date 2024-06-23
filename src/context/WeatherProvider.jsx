@@ -57,37 +57,44 @@ const WeatherProvider = ({ children }) => {
     uvRaysIndex: { index: "", color: "" },
     forecast: [],
     dayReport: [],
-    location: { name: "", region: "" },
+    location: { name: "", region: "", country: "" },
   });
 
   const [loading, setLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const getWeather = async (city = "Ahmedabad") => {
     setLoading(true);
-    const response = await fetch(
-      `https://api.weatherapi.com/v1/forecast.json?key=${
-        import.meta.env.VITE_API_KEY
-      }&q=${city}&days=3&aqi=yes&alerts=no`
-    );
-    const data = await response.json();
-    setWeather({
-      temperature: data.current.temp_c,
-      weatherDesc: data.current.condition.text,
-      pressure: data.current.pressure_mb + " mb",
-      visibility: data.current.vis_km + " km",
-      humidity: data.current.humidity + " %",
-      sunrise: data.forecast.forecastday[0].astro.sunrise,
-      sunset: data.forecast.forecastday[0].astro.sunset,
-      uvRays: data.current.uv + " UVI",
-      aqi: Math.round(data.current.air_quality.pm2_5),
-      uvRaysIndex: getUVraysIndex(data.current.uv),
-      forecast: getForecast(data.forecast.forecastday),
-      dayReport: data.forecast.forecastday[0].hour,
-      location: {
-        name: data.location.name,
-        region: data.location.region,
-      },
-    });
+    setIsError(false);
+    try {
+      const response = await fetch(
+        `https://api.weatherapi.com/v1/forecast.json?key=${
+          import.meta.env.VITE_API_KEY
+        }&q=${city}&days=3&aqi=yes&alerts=no`
+      );
+      const data = await response.json();
+      setWeather({
+        temperature: data.current.temp_c,
+        weatherDesc: data.current.condition.text,
+        pressure: data.current.pressure_mb + " mb",
+        visibility: data.current.vis_km + " km",
+        humidity: data.current.humidity + " %",
+        sunrise: data.forecast.forecastday[0].astro.sunrise,
+        sunset: data.forecast.forecastday[0].astro.sunset,
+        uvRays: data.current.uv + " UVI",
+        aqi: Math.round(data.current.air_quality.pm2_5),
+        uvRaysIndex: getUVraysIndex(data.current.uv),
+        forecast: getForecast(data.forecast.forecastday),
+        dayReport: data.forecast.forecastday[0].hour,
+        location: {
+          name: data.location.name,
+          region: data.location.region,
+          country: data.location.country,
+        },
+      });
+    } catch (error) {
+      setIsError(true);
+    }
     setLoading(false);
   };
 
@@ -99,6 +106,7 @@ const WeatherProvider = ({ children }) => {
     getWeatherData: getWeather,
     weather: weather,
     loading: loading,
+    isError: isError,
   };
 
   return (
